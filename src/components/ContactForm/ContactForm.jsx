@@ -4,7 +4,7 @@ import * as yup from 'yup';
 import { nanoid } from 'nanoid';
 // import 'yup-phone';
 import { toast } from 'react-toastify';
-// import 'react-toastify/dist/ReactToastify.css';
+import 'react-toastify/dist/ReactToastify.css';
 import { toastifyOptions } from 'utils/toastifyOptions';
 import { addContact } from 'redux/contacts/contacts-slice';
 import { getContacts } from 'redux/contacts/contacts-selectors';
